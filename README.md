@@ -1,27 +1,7 @@
-# Easy User Authentication for Express Web Apps
+# Rules/Apps Solution
 
-This repository hosts a Node project that defines a web app using Express. You'll secure access to some of its routes using Auth0 User Authentication.
+Welcome! You're looking at the frontend portion of the solution I built out to programmatically return all the tenant's Rules and their corresponding Apps in an Auth0 protected application. I used this very handy Auth0 SDK as a starter template: https://github.com/auth0-blog/auth0-express-pug-sample).
 
-## Get Started
 
-Install the client project dependencies:
 
-```bash
-npm install
-```
 
-Run the server:
-
-```bash
-npm run dev
-```
-
-Open another terminal window and run the client proxy that enables live reload:
-
-```
-npm run ui
-```
-
-The application runs by on port `4040` to mitigate conflicting with other client applications you may be running.
-
-Visit [`http://localhost:4040/`](http://localhost:4040/) to access the starter application.
